@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đang mở Shopee...</title>
+  <script>
+    var appLink = "shopee://open?itemId=24138188157&shopId=623292388";
+    var webLink = "https://shopee.vn/product/623292388/24138188157";
+
+    window.location.href = appLink;
+    setTimeout(function () {
+      window.location.href = webLink;
+    }, 800);
+  </script>
+</head>
+<body>
+  <p>Đang mở sản phẩm trên Shopee…</p>
+  <a href="https://shopee.vn/product/623292388/24138188157">
+    Nếu không tự mở, bấm vào đây
+  </a>
+</body>
+</html>
